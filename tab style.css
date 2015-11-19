@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----- Tabs -----*/
+.tabs {
+	margin:0px 50px;
+    float:left;
+    width:110em;
+	height: 100em;
+	
+}
+@media screen and (max-width: 30.5em) {
+  .tabs {
+    margin:0px 50px;
+    float:none;
+    width:auto;
+	height: auto;
+}
+	}
+ 
+    /*----- Tab Links -----*/
+    /* Clearfix */
+    .tab-links:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+	
+	
+    .tab-links li {
+        margin:0px 5px;
+        float:left;
+        list-style:none;
+    }
+ 
+        .tab-links a {
+            padding:9px 15px;
+            display:inline-block;
+            border-radius:5px 5px 0px 0px;
+            background:#094C72;
+            font-size:36px;
+            font-weight:500;
+            color:#FFFFFF;
+            transition:all linear 0.15s;
+        }
+ 
+        .tab-links a:hover {
+            background:#072D3D;
+            text-decoration:none;
+        }
+ 
+    li.active a, li.active a:hover {
+        background:#fff;
+        color:#007BC0;
+    }
+ 
+    /*----- Content of Tabs -----*/
+    .tab-content {
+		
+        padding:15px;
+        border-radius:3px;
+        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+        background:#fff;
+    }
+	
+	@media screen and (max-width: 40.5em) {
+ .tab-content {
+        padding:5px;
+        border-radius:2px;
+        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+        background:#fff;
+    }
+	}
+ 
+        .tab {
+            display:none;
+        }
+ 
+        .tab.active {
+            display:block;
+        }
