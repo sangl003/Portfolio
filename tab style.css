@@ -69,12 +69,13 @@
       
     }
 	}
- 
-        .tab {
+
+	.tab {
             display:none;
         }
  
-        .tab.active {
-            display:block;
+    .tab.active {
+        display:block;
         }
-		
+	
+	
