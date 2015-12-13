@@ -6,6 +6,6 @@
     $to = "shravari.sangle@gmail.com"; 
     $subject = 'New Message';
    			
-   mail(&to, &subject, &message,"From:" .&first_name . last_name);
+   mail($to, $subject, $message, "From: " . $first_name . $last_name);
    echo "Mail sent";
 ?>
