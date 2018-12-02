@@ -1,8 +1,42 @@
-.container .jumbotron {
+.container {
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 18px;
+   
 }
+
+#body{
+    background: #005772;
+}
+
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    background-color: #005772;
+   
+}
+
+p,a{
+    color: white;
+    align-content: right;
+
+}
+
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .navbar  {
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 18px;
+    padding: 10px;
+    background-color:#013549;
+  }
+  
 
 .resume {
     margin: 0 30px;

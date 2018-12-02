@@ -11,9 +11,7 @@
 
     <title>Sharvari Sangle Portfolio</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="./bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">   
+	<!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">    -->
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="./ie10-viewport-bug-workaround.css" rel="stylesheet">
 
@@ -23,6 +21,29 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="./ie-emulation-modes-warning.js"></script>
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="./bootstrap.min.css" rel="stylesheet"> -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./ie10-viewport-bug-workaround.css" rel="stylesheet">
+	  <link href="./bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/carousel.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/portfolio.css" rel="stylesheet">
+
+  
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./ie-emulation-modes-warning.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/solid.css" integrity="sha384-rdyFrfAIC05c5ph7BKz3l5NG5yEottvO/DQ0dCrwD8gzeQDjYBHNr1ucUpQuljos" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css" integrity="sha384-u5J7JghGz0qUrmEsWzBQkfvc8nK3fUT7DCaQzNQ+q4oEXhGSx+P2OqjWsfIRB8QT" crossorigin="anonymous">
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -60,145 +81,134 @@
 
   <body>
 
-    <div class="container">
-      <!-- Static navbar -->
-      <nav class="navbar navbar-default">
+      <div class="container" id = "body">
         <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">Sharvari Sangle</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">              
-              <li ><a href="BIO.html" data-toggle="tooltip" title="About me!" >About Me</a></li>
-              <li ><a href="Skillset1.html" data-toggle="tooltip" title="Skill set">Skill Set </a></li>
-               <li ><a href="StrengthsFinder1.html" data-toggle="tooltip" title="Strengths Finder from Gallup">Strengths Finder</a></li>
-              <li ><a href="CV.html" data-toggle="tooltip" title="View & download Resume">Resume</a></li>
-               <li><a href="Awards1.html" data-toggle="tooltip" title="Awards & Recognition">Awards & Recognition</a></li>
-              <li class="active"><a href="Projects.html" data-toggle="tooltip" title="Professional & Acadamic Projects">Projects</a></li>      
-              </li>
-            </ul>
-          
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
-      </nav>
-
-<div class="jumbotron">
+  
+      <nav class="navbar navbar-expand-sm navbar-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand"  href="index.html">Sharvari Sangle</a>        
+        <ul class="nav navbar-nav ml-auto">
+          <li> <a class=" nav-link" href="BIO.html" data-toggle="tooltip" title="About me!" ><i class="fas fa-id-card"></i></a></li>
+          <li><a class=" nav-link" href="Skillset1.html" data-toggle="tooltip" title="Skill set"><i class="fas fa-user-cog"></i> </a></li>
+           <li><a class="nav-link" href="StrengthsFinder1.html" data-toggle="tooltip" title="Strengths Finder from Gallup"><i class="fas fa-dumbbell"></i></a></li>
+          <li><a class="nav-link" href="CV.html" data-toggle="tooltip" title="View & download Resume"><i class="fas fa-file"></i></a></li>
+           <li><a class="nav-link" href="Awards1.html" data-toggle="tooltip" title="Awards & Recognition"><i class="fas fa-award"></i></a></li>
+           <li><a class="nav-link" href="Projects.html" data-toggle="tooltip" title="GIS projects "><i class="fas fa-project-diagram"></i></a></li>   
+           <li><a class="nav-link" href="Projects_1.html" data-toggle="tooltip" title="Full Stack Web Developer Projects"><i class="fas fa-project-diagram"></i></a></li>   
+          </li>
+        </ul>
+       </div>
+    </nav>
 <div id="myCarousel" class="carousel slide" data-ride="carousel" >
     <!-- Indicators --> 
-
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox" align="center">
-	 <div class="item active" >
-    <a href="https://egis.umn.edu/twincities/index.html" target="_blank"><img src="Image/CampusMap.png" alt="Campus Interactive Map"   width="200px" height="200px"></a>
+	 <div class="carousel-item active" >
+    <a href="https://egis.umn.edu/twincities/index.html" target="_blank"><img src="Image/CampusMap.png" alt="Campus Interactive Map"   width="300px" height="300px"></a>
    <p><strong>University of Minnesota Campus Interactive Map</strong></p>
-   <p style="text-align:center;font-family:verdana;font-size:14px;color:#424242;"> Interactive campus map allows you to access campus information’s like bus stops, bus routes, arts venue, sports venue etc. allowing you to explore the campus on your fingertips. It’s a mobile responsive environment, made available to give a user friendly interface for the students, staff and other people affiliated with university. The application is build using web AppBuilder developers edition which uses JavaScript API, html, CSS as its development platform. Working on this project has been a great opportunity for my personal and professional development. This project has given me exposure and opportunity to portray my work on a larger scale.
+   <p style="text-align:center;font-family:verdana;font-size:14px;color:white;"> Interactive campus map allows you to access campus information’s like bus stops, bus routes, arts venue, sports venue etc. allowing you to explore the campus on your fingertips. It’s a mobile responsive environment, made available to give a user friendly interface for the students, staff and other people affiliated with university. The application is build using web AppBuilder developers edition which uses JavaScript API, html, CSS as its development platform. Working on this project has been a great opportunity for my personal and professional development. This project has given me exposure and opportunity to portray my work on a larger scale.
 </p>
-   </div>
- 
-	    
-<div class="item" >
-    <a href="https://sangl003.github.io/Simple-Map-viewer/" target="_blank"><img src="Image/SimpleDesktopFinal.png" alt="Simple Map viewer"   width="200px" height="200px"></a>
+   </div>	    
+<div class="carousel-item" >
+    <a href="https://sangl003.github.io/Simple-Map-viewer/" target="_blank"><img src="Image/SimpleDesktopFinal.png" alt="Simple Map viewer"   width="300px" height="300px"></a>
    <p><strong>Simple Desktop Viewer</strong></p>
-   <p style="text-align:center;font-family:verdana;font-size:14px;color:#424242;"> Simple Desktop Map viewer is developed using ArcGIS Runtime SDK for .Net 10.2.7. It allows you to add, remove, view, navigate through Web Services. The user can add new web services or use the existing one. It also allows identifying features. This project can be used in companies where they don’t want to invest in 100s of license copies for ArcMap but still want some of their employees to have the ability to view the internal services in a very basic viewer.  The app can be can customized according to the company’s needs. All you need a developer’s license and one-time investment in application development.
+   <p style="text-align:center;font-family:verdana;font-size:14px;color:white;"> Simple Desktop Map viewer is developed using ArcGIS Runtime SDK for .Net 10.2.7. It allows you to add, remove, view, navigate through Web Services. The user can add new web services or use the existing one. It also allows identifying features. This project can be used in companies where they don’t want to invest in 100s of license copies for ArcMap but still want some of their employees to have the ability to view the internal services in a very basic viewer.  The app can be can customized according to the company’s needs. All you need a developer’s license and one-time investment in application development.
 </p>
    </div>	    
 	    
-    <div class="item" >
-   <a href="http://arcg.is/1Lo6c9B" target="_blank" ><img src="Image/Snow tow information.JPG" alt="Snow Tow Information"   width="200px" height="200px" ></a><p><strong>Snow tow Information Map</strong></p>
-  <p style="text-align:center;font-family:verdana;font-size:14px;color:#424242;">Application helps to understand the towing problems faced by community by using a Heat map. I created this web map of Snow towing in the University of Minnesota Twin Cities campus using ArcGIS Web App builder template.</p>
+    <div class="carousel-item" >
+   <a href="http://arcg.is/1Lo6c9B" target="_blank" ><img src="Image/Snow tow information.JPG" alt="Snow Tow Information"   width="300px" height="300px" ></a><p><strong>Snow tow Information Map</strong></p>
+  <p style="text-align:center;font-family:verdana;font-size:14px;color:white;">Application helps to understand the towing problems faced by community by using a Heat map. I created this web map of Snow towing in the University of Minnesota Twin Cities campus using ArcGIS Web App builder template.</p>
     </div>
-     <div class="item" >
-<a href="tool/Toolbox.tbx" download ><img src="Image/python tool.JPG" alt="Simple Data Extractor"   width="200px" height="200px" ></a><p><strong>Simple Data Extractor</strong></p>
-  <p style="text-align:center;font-family:verdana;font-size:14px;color:#424242;">This is a Simple python tool which allows you to extract data from a feature class using select by attribute or select by location or by both or none into a new Feature class. Processing time is reduced to 33 seconds from 3 minutes.</p>
+     <div class="carousel-item" >
+<a href="tool/Toolbox.tbx" download ><img src="Image/python tool.JPG" alt="Simple Data Extractor"   width="300px" height="300px" ></a><p><strong>Simple Data Extractor</strong></p>
+  <p style="text-align:center;font-family:verdana;font-size:14px;color:white;">This is a Simple python tool which allows you to extract data from a feature class using select by attribute or select by location or by both or none into a new Feature class. Processing time is reduced to 33 seconds from 3 minutes.</p>
     </div>
-    <div class="item " >
-<a href="http://umn.maps.arcgis.com/apps/MapSeries/index.html?appid=e68bb21abbcb40dfa1d2994248d5f0b0" target="_blank"><img src="Image/katrina.JPG" alt="katrina Hurricane Web app"    width="200px" height="200px"></a><p><strong>Hurricane Katrina story map</strong></p>
-  <p style="text-align:center;font-family:verdana;font-size:14px;color:#424242;">The objective of this analysis is to focus on the population decrease, driving factors and reasons for diaspora seen in the Gulf Coast region. Story map is build using the ESRI story map templates.</p>
+    <div class="carousel-item " >
+<a href="http://umn.maps.arcgis.com/apps/MapSeries/index.html?appid=e68bb21abbcb40dfa1d2994248d5f0b0" target="_blank"><img src="Image/katrina.JPG" alt="katrina Hurricane Web app"    width="300px" height="300px"></a><p><strong>Hurricane Katrina story map</strong></p>
+  <p style="text-align:center;font-family:verdana;font-size:14px;color:white;">The objective of this analysis is to focus on the population decrease, driving factors and reasons for diaspora seen in the Gulf Coast region. Story map is build using the ESRI story map templates.</p>
     </div>
-    <div class="item " >
- <a href="Image/hillshade.pdf" target="_blank" ><img src="Image/Hillshade.JPG" alt="Swiss Technique using Hillshade tool"    width="200px" height="200px" ></a><p><strong>Swiss Technique using Hill shade tool</strong></p>
-  <p style="text-align:center;font-family:verdana;font-size:14px;color:#424242;">It is a cartographic sample of Swiss technique using Hill shade tool. This show how the elevations are shown using the color tones and shadows.</p>
+    <div class="carousel-item " >
+ <a href="Image/hillshade.pdf" target="_blank" ><img src="Image/Hillshade.JPG" alt="Swiss Technique using Hillshade tool"    width="300px" height="300px" ></a><p><strong>Swiss Technique using Hill shade tool</strong></p>
+  <p style="text-align:center;font-family:verdana;font-size:14px;color:white;">It is a cartographic sample of Swiss technique using Hill shade tool. This show how the elevations are shown using the color tones and shadows.</p>
     </div>
-    <div class="item " >
- <a href="Image/Roadmap.pdf" target="_blank" ><img src="Image/roadmap.JPG" alt="Swiss Technique using Hillshade tool"   width="200px" height="200px" ></a><p><strong>Minnesota Road Map</strong></p>
-  <p style="text-align:center;font-family:verdana;font-size:14px;color:#424242;">Created custom style symbols for Minnesota Road Map. Along with this I have also created different marker, picture, line, fill, character symbols for one of the academic projects.</p>
+    <div class="carousel-item " >
+ <a href="Image/Roadmap.pdf" target="_blank" ><img src="Image/roadmap.JPG" alt="Swiss Technique using Hillshade tool"   width="300px" height="300px" ></a><p><strong>Minnesota Road Map</strong></p>
+  <p style="text-align:center;font-family:verdana;font-size:14px;color:white;">Created custom style symbols for Minnesota Road Map. Along with this I have also created different marker, picture, line, fill, character symbols for one of the academic projects.</p>
     </div>
-    <div class="item " >
-<a href="Image/Sangl_Poster_Final.pdf" target="_blank" ><img src="Image/Poster.JPG" alt="katrina Hurricane Poster"   width="200px" height="200px"   ></a><p><strong>Long term demographic effects of hurricane Katrina</strong></p>
-  <p style="text-align:center;font-family:verdana;font-size:14px;color:#424242;">Analyzing Demographic Effects of Hurricane Katrina on the Gulf Coast using census data for years 2500 to 2509 for Alabama, Louisiana, and Mississippi. A well-organized example of information.</p>
+    <div class="carousel-item " >
+<a href="Image/Sangl_Poster_Final.pdf" target="_blank" ><img src="Image/Poster.JPG" alt="katrina Hurricane Poster"   width="300px" height="300px"   ></a><p><strong>Long term demographic effects of hurricane Katrina</strong></p>
+  <p style="text-align:center;font-family:verdana;font-size:14px;color:white;">Analyzing Demographic Effects of Hurricane Katrina on the Gulf Coast using census data for years 2500 to 2509 for Alabama, Louisiana, and Mississippi. A well-organized example of information.</p>
     </div>
-    <div class="item " >
- <a href="Image/outter.pdf" target="_blank" ><img src="Image/otter.JPG" alt="Otter tail county"   width="200px" height="200px" ></a><p><strong>Otter tail county</strong></p>
-  <p style="text-align:center;font-family:verdana;font-size:14px;color:#424242;">This is a cartographic example of Otter Tail County, large number of lakes and labelling. This is how we can design are paper maps where you have too many features.</p>
+    <div class="carousel-item " >
+ <a href="Image/outter.pdf" target="_blank" ><img src="Image/otter.JPG" alt="Otter tail county"   width="300px" height="300px" ></a><p><strong>Otter tail county</strong></p>
+  <p style="text-align:center;font-family:verdana;font-size:14px;color:white;">This is a cartographic example of Otter Tail County, large number of lakes and labelling. This is how we can design are paper maps where you have too many features.</p>
     </div>
-    <div class="item " >
-<a href="https://gis.uservices.umn.edu/arcgis/rest/services/TC_Campus_Basemap/MapServer?f=jsapi" target="_blank" ><img src="Image/Basemap.JPG" alt="Otter tail county"  width="200px" height="200px" ></a><p><strong>Campus Basemaps</strong></p>
-  <p style="text-align:center;font-family:verdana;font-size:14px;color:#424242;">Campus basemap was created for the campus interactive web app. Now used for many other University applications. Used ArcGIS Desktop 10.3 for cartography and publishing on ArcGIS server.</p>
+    <div class="carousel-item " >
+<a href="https://gis.uservices.umn.edu/arcgis/rest/services/TC_Campus_Basemap/MapServer?f=jsapi" target="_blank" ><img src="Image/Basemap.JPG" alt="Otter tail county"  width="300px" height="300px" ></a><p><strong>Campus Basemaps</strong></p>
+  <p style="text-align:center;font-family:verdana;font-size:14px;color:white;">Campus basemap was created for the campus interactive web app. Now used for many other University applications. Used ArcGIS Desktop 10.3 for cartography and publishing on ArcGIS server.</p>
     </div>
-    <div class="item " >
-<a href="http://bikesbeverages.github.io/Bikes-and-Beverages/" target="_blank" ><img src="Image/Bikes&beverages.PNG" alt="Bikes & Beverages"  width="200px" height="200px" ></a><p><strong>Bikes & Beverages</strong></p>
-  <p style="text-align:center;font-family:verdana;font-size:14px;color:#424242;">This application was developed in Google Maps JavaScript Api. The directions services used are provided by Google API. For designing the application Bootstrap is used.</p>
+    <div class="carousel-item " >
+<a href="http://bikesbeverages.github.io/Bikes-and-Beverages/" target="_blank" ><img src="Image/Bikes&beverages.PNG" alt="Bikes & Beverages"  width="300px" height="300px" ></a><p><strong>Bikes & Beverages</strong></p>
+  <p style="text-align:center;font-family:verdana;font-size:14px;color:white;">This application was developed in Google Maps JavaScript Api. The directions services used are provided by Google API. For designing the application Bootstrap is used.</p>
     </div>
-    <div class="item " >
-<a href="pdf/Watershed.pdf" target="_blank" ><img src="Image/watershed.PNG" alt="Bikes & Beverages"  width="200px" height="200px" ></a><p><strong>Water Flow Analysis over impervious surface</strong></p>
-  <p style="text-align:center;font-family:verdana;font-size:14px;color:#424242;">This is a remote sensing project based on watershed delineation and image classification. By using GIS and remotely sensed data have shown the areas where there is need for storm water management around the campus.</p>
+    <div class="carousel-item " >
+<a href="pdf/Watershed.pdf" target="_blank" ><img src="Image/watershed.PNG" alt="Bikes & Beverages"  width="300px" height="300px" ></a><p><strong>Water Flow Analysis over impervious surface</strong></p>
+  <p style="text-align:center;font-family:verdana;font-size:14px;color:white;">This is a remote sensing project based on watershed delineation and image classification. By using GIS and remotely sensed data have shown the areas where there is need for storm water management around the campus.</p>
     </div>
-        <div class="item " >
-<a href="http://sangl003.github.io/Umn-ethnicity/" target="_blank" ><img src="https://raw.githubusercontent.com/sangl003/Umn-ethnicity/gh-pages/images/Capture1.PNG" alt="Bikes & Beverages"  width="200px" height="200px" ></a><p><strong>University of Minnesota Ethnicity 2013 -2015</strong></p>
-  <p style="text-align:center;font-family:verdana;font-size:14px;color:#424242;">
+        <div class="carousel-item " >
+<a href="http://sangl003.github.io/Umn-ethnicity/" target="_blank" ><img src="https://raw.githubusercontent.com/sangl003/Umn-ethnicity/gh-pages/images/Capture1.PNG" alt="Bikes & Beverages"  width="300px" height="300px" ></a><p><strong>University of Minnesota Ethnicity 2013 -2015</strong></p>
+  <p style="text-align:center;font-family:verdana;font-size:14px;color:white;">
 
 This is a Spatial Humanities project, which is an analysis of influence of Ethnicity on choosing education trades, levels.
 The objective of the analysis is to learn about the diverse population around the campus, to visualize the Ethnicity patterns, to study the pattern respect to the level of studies and departments, to analyze the relationship between the ethnicity and the trade. This analysis do not promote racial discrimination.
 
  </p>
     </div>
-    <div class="item " >
-<a href="https://sharvari.cartodb.com/viz/0db0bce8-f835-11e5-8f83-0ecd1babdde5/public_map" target="_blank" ><img src="Image/coffeeshops.PNG" alt="Neighbourhood Coffee Shops"  width="200px" height="200px" ></a><p><strong>Neighbourhood Coffee Shops</strong></p>
-  <p style="text-align:center;font-family:verdana;font-size:14px;color:#424242;"> Application is developed and hosted on Carto DB.This is a simple interactive application, allowing you to explore coffee places.</p>
+    <div class="carousel-item " >
+    <a href="https://sharvari.cartodb.com/viz/0db0bce8-f835-11e5-8f83-0ecd1babdde5/public_map" target="_blank" ><img src="Image/coffeeshops.PNG" alt="Neighbourhood Coffee Shops"  width="300px" height="300px" ></a><p><strong>Neighbourhood Coffee Shops</strong></p>
+  <p style="text-align:center;font-family:verdana;font-size:14px;color:white;"> Application is developed and hosted on Carto DB.This is a simple interactive application, allowing you to explore coffee places.</p>
     </div>    
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
   </div><!-- /carousel -->
-  
-</div><!-- /container -->
-
-</div>
-
-
-
-</div>
+</div> <!-- /container -->
 <p align="center">
-<a href="https://www.linkedin.com/in/sharvarisangle" target="_blank" >
-<img  src="Image/linkedin_circle_color.png" width="71" height="65"></a>
-<a href="pdf/SharvariSangle_Resume.pdf" download >
-<img src="Image/arrow_down.png" width="64" height="64"></a>
-<a href="https://github.com/sangl003" target="_blank" >
-<img src="Image/github.jpg" width="64" height="64"></a>
-<p align="center">	Most content © Sharvari Sangle. All rights reserved. Work samples © their owners. Social media icons downloaded from Social media pages.</p>
+    <a href="https://www.linkedin.com/in/sharvarisangle" target="_blank" >
+    <img  src="Image/linkedin_circle_color.png" width="64" height="64"></a>
+    <a href="pdf/SharvariSangle_Resume.pdf" download >
+    <img src="Image/arrow_down.png" width="64" height="64"></a>
+    <a href="https://github.com/sangl003" target="_blank" >
+    <img src="Image/github.jpg" width="64" height="64"></a>
+    <p align="center" style="text-align:center;font-family:verdana;font-size:11px;color:black;">  Most content © Sharvari Sangle. All rights reserved. Work samples © their owners. Social media icons downloaded from Social media pages.</p>
+    
 
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="./jquery.min.js"><\/script>')</script>
-    <script src="./bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="./ie10-viewport-bug-workaround.js"></script>
-  </body>
-</html>
+  
+  
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="./jquery.min.js"><\/script>')</script>
+      <script src="./bootstrap.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="./ie10-viewport-bug-workaround.js"></script>
+    </body>
+  </html>
+  
